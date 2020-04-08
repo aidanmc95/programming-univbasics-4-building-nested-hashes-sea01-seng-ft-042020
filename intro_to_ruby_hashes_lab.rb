@@ -30,4 +30,7 @@ def monopoly_with_fourth_tier
   # complexity.
   current_hash = monopoly_with_second_tier
   current_hash[:railroads][:names][:reading_railroad] = {:morgage_value => 100}
+  current_hash[:railroads][:names][:pennsylvania_railroad] = {:morgage_value => 200}
+  current_hash[:railroads][:names][:b_and_o_railroad] = {:morgage_value => 400}
+  current_hash[:railroads][:names][:shortline_railroad] = {:morgage_value => 800}
 end
